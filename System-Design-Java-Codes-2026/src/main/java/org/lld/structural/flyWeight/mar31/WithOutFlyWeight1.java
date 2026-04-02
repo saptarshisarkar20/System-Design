@@ -1,4 +1,4 @@
-package org.lld.flyWeight.mar31;
+package org.lld.structural.flyWeight.mar31;
 
 
 import java.util.ArrayList;

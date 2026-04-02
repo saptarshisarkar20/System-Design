@@ -1,4 +1,4 @@
-package org.lld.proxy.mar31;
+package org.lld.structural.proxy.mar31;
 
 public class DisplayInterfaceImpl1 implements DisplayInterface1 {
 
