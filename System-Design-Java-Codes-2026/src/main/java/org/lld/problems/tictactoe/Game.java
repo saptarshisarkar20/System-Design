@@ -2,12 +2,12 @@ package org.lld.problems.tictactoe;
 
 import org.lld.problems.tictactoe.entity.Board;
 import org.lld.problems.tictactoe.entity.Player;
-import org.lld.problems.tictactoe.entity.Rules;
 import org.lld.problems.tictactoe.enums.GameType;
 import org.lld.problems.tictactoe.enums.Symbol;
 import org.lld.problems.tictactoe.factory.GameFactory;
 import org.lld.problems.tictactoe.observer.ConsoleGameObserver;
 import org.lld.problems.tictactoe.observer.GameObserver;
+import org.lld.problems.tictactoe.strategy.Rules;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

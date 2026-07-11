@@ -2,8 +2,8 @@ package org.lld.problems.tictactoe.factory;
 
 import org.lld.problems.tictactoe.Game;
 import org.lld.problems.tictactoe.entity.Board;
-import org.lld.problems.tictactoe.entity.StandardRules;
 import org.lld.problems.tictactoe.enums.GameType;
+import org.lld.problems.tictactoe.strategy.StandardRules;
 
 public class GameFactory {
     public static Game createGame(GameType type, int size) {

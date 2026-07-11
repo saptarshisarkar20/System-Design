@@ -1,5 +1,6 @@
-package org.lld.problems.tictactoe.entity;
+package org.lld.problems.tictactoe.strategy;
 
+import org.lld.problems.tictactoe.entity.Board;
 import org.lld.problems.tictactoe.enums.Symbol;
 
 import java.util.List;
@@ -14,7 +15,7 @@ public class StandardRules extends Rules {
     }
 
     public Symbol isWin(Board board, Symbol s) {
-        List<List<Symbol>> grid = board.grid;
+        List<List<Symbol>> grid = board.getGrid();
         int n = grid.size();
 
         // Check rows

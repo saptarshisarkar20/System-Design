@@ -1,5 +1,6 @@
-package org.lld.problems.tictactoe.entity;
+package org.lld.problems.tictactoe.strategy;
 
+import org.lld.problems.tictactoe.entity.Board;
 import org.lld.problems.tictactoe.enums.Symbol;
 
 public abstract class Rules {
